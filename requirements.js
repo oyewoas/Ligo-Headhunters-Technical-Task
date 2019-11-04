@@ -15,7 +15,7 @@ const requirementsObj = {
             insurance: 'car insurance'
         },
         drivers: {
-            license: `driver's license`
+            license: `driver license`
         },
         company: 'Company B'
     },
@@ -45,7 +45,7 @@ const requirementsObj = {
             }
         },
         drivers: {
-            license: `driver's license`,
+            license: `driver license`,
         },
         company: 'Company E'
     },
@@ -55,7 +55,7 @@ const requirementsObj = {
         motorcycle: 'motocycle',
         insurance: 'motorcycle insurance',
         drivers: {
-            license: `driver's license`
+            license: `driver license`
         },
         company: 'Company F'
     },
@@ -68,7 +68,7 @@ const requirementsObj = {
         storage: 'storage place',
         garage: 'garage',
         insurance: 'property insurance',
-        company: 'Company A'
+        company: 'Company H'
     },
     Company_J : {
         company: 'Company J'

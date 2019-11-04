@@ -23,7 +23,7 @@ const includesRequirement = (inputArray, data) => {
 
 const formatCanOrCannotWork = (data) => {
     if(Array.isArray(data)){
-        const result = data.join().trim().toUpperCase()
+        const result = data.sort().join().trim().toUpperCase()
         return result
     } else {
         return `${data} is not an Array`
@@ -105,4 +105,4 @@ function calculateCompany () {
 
 
 
-console.log(calculateCompany( 'House,property insurance'))
+console.log(calculateCompany('bike, driver license'))
